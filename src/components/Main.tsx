@@ -1,6 +1,8 @@
-import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import PhoneIcon from '@mui/icons-material/Phone';
+import MailIcon from '@mui/icons-material/Mail';
 import '../assets/styles/Main.scss';
 
 function Main() {
@@ -8,20 +10,22 @@ function Main() {
   return (
     <div className="container">
       <div className="about-section">
-        <div className="image-wrapper">
-          <img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/avatar_circle.jpeg" alt="Avatar" />
-        </div>
         <div className="content">
           <div className="social_icons">
-            <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://github.com/TranTruongMMCII" target="_blank" rel="noreferrer"><GitHubIcon /></a>
+            <a href="https://www.linkedin.com/in/trantruongmmcii" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
+            <a href="https://www.facebook.com/TranTruongMMCII" target="_blank" rel="noreferrer"><FacebookIcon /></a>
+            <a href="mailto:truong.tranvandan@gmail.com" target="_blank" rel="noreferrer"><MailIcon /></a>
           </div>
-          <h1>Yuji Sato</h1>
-          <p>Full Stack Engineer</p>
+          <h1>Trần Văn Đan Trường</h1>
+          <p>Software Engineer (Back-end)</p>
 
           <div className="mobile_social_icons">
-            <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://github.com/TranTruongMMCII" target="_blank" rel="noreferrer"><GitHubIcon /></a>
+            <a href="https://www.linkedin.com/in/trantruongmmcii" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
+            <a href="https://www.facebook.com/TranTruongMMCII" target="_blank" rel="noreferrer"><FacebookIcon /></a>
+            <a href="mailto:truong.tranvandan@gmail.com" target="_blank" rel="noreferrer"><MailIcon /></a>
+            <a href="tel:+84337198206" target="_blank" rel="noreferrer"><PhoneIcon /></a>
           </div>
         </div>
       </div>
