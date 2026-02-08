@@ -52,7 +52,17 @@ function Footer() {
         </a>{" "}
         with 💜
       </p>
-      <p>Thank you for your template 🙇‍♂️. Hạ Vy ❤️</p>
+      <p>
+        Thank you for your template 🙇‍♂️.{" "}
+        <a
+          href="https://github.com/TranTruongMMCII/react-portfolio-template"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Hạ Vy
+        </a>{" "}
+        ❤️
+      </p>
     </footer>
   );
 }
