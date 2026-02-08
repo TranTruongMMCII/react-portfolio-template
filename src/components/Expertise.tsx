@@ -52,7 +52,7 @@ function Expertise() {
               Experienced in building robust and scalable back-end systems using
               Java and Spring Boot framework. Skilled in designing RESTful APIs,
               can work with both SQL and NoSQL databases. Just learnt ReactJS
-              recently.
+              recently for full-stack development.
             </p>
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>
