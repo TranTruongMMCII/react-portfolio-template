@@ -4,6 +4,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import PhoneIcon from "@mui/icons-material/Phone";
 import MailIcon from "@mui/icons-material/Mail";
 import "../assets/styles/Main.scss";
+import NameWithFlag from "./FlagIcon";
 
 function Main() {
   return (
@@ -41,7 +42,12 @@ function Main() {
             </a>
           </div>
           <h1>Trần Văn Đan Trường</h1>
-          <p>Software Engineer (Back-end)</p>
+          <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+            <p>Software Engineer (Back-end)</p>
+            <div style={{ marginLeft: "60px" }}></div>
+            <NameWithFlag code="GB" name="Harvey" size={32} />
+            <NameWithFlag code="KR" name="하비" size={32} />
+          </div>
 
           <div className="mobile_social_icons">
             <a
