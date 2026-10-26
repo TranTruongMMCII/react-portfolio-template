@@ -11,7 +11,7 @@ function Education() {
           <p>Dec 2025 - Jan 2028 (Expected)</p>
           <p>
             Focus on Machine Learning, Computer Vision on Edge Devices
-            (specifically for Agriculture applications)
+            (specifically for Person Re-Identification (ReID))
           </p>
         </div>
         <div className="education">
